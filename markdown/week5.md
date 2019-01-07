@@ -156,6 +156,7 @@ $$ \frac{\partial}{\partial\theta_1}=\frac{J\left(\theta_1+\varepsilon_1,\theta_
 
 ![](../images/bf65f3f3098025530a3c442eea562f8c.jpg)
 
+Once you have verified once that your backpropagation algorithm is correct, you don't need to compute gradApprox again. The code to compute gradApprox can be very slow.
 ### 9.6 随机初始化
 
 参考视频: 9 - 6 - Random Initialization (7 min).mkv
